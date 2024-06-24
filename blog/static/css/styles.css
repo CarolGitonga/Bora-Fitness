@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+body { 
+    margin:0;
+    padding:0;
+    font-family: "Inter", sans-serif;
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #6a6a6a;
+
+}
+
+.custom-navbar {
+    background: #B3D9BE !important;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.hero {
+    background: #B3D9BE;
+    padding: calc(4rem - 30px) 0 0rem 0;
+}
+.hero .intro-excerpt {
+    position: relative;
+    z-index: 4; 
+}
+.hero h1 {
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 30px; 
+}
+.hero p {
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 30px; 
+}
+.hero .hero-img-wrap {
+    position: relative; 
+}
+.hero .hero-img-wrap img {
+    position: relative;
+    top: 0px;
+    right: 0px;
+    z-index: 2;
+    max-width: 780px;
+    left: -20px; }
+
+
+a { 
+    color: #FF7793;
+    text-decoration:none;   
+    
+}
+
+h1 { 
+    font-weight:normal;
+    border-bottom:1px solid #bbb;
+    padding:0 0 10px 0;
+}
+
+h2 {
+    font-weight:normal;
+    margin:30px 0 0;
+    
+}
+
+#content { 
+    float: left;
+    width:60%;
+    padding:0 0 0 30px; 
+}
+
+#sidebar { 
+    float:right;
+    width:30%;
+    padding:10px;
+    background: #FEF7FA; 
+    height:100%;
+}
+
+p.date { 
+    color:#A4A199;
+    font-family: georgia, serif;
+    font-size: 15px;
+    font-style: italic; 
+}
+
+/* pagination */
+.pagination { 
+    margin:40px 0; 
+    font-weight:bold;
+}
+
+/* forms */
+label { 
+    float:left;
+    clear:both;
+    color:#333;
+    margin-bottom:4px; 
+}
+input, textarea { 
+    clear:both;
+    float:left;
+    margin:0 0 10px;
+    background:#ededed;
+    border:0;
+    padding:6px 10px;
+    font-size:12px;
+}
+input[type=submit] {
+    font-weight:bold;
+    background:#B3D9BE;
+    color:#fff;
+    padding:10px 20px;
+    font-size:14px;
+    text-transform:uppercase; 
+}
+.errorlist { 
+    color:#cc0033;
+    float:left;
+    clear:both;
+    padding-left:10px; 
+}
+
+/* comments */
+.comment {
+    padding:10px;
+}
+.comment:nth-child(even) {
+    background:#efefef;
+}
+.comment .info {
+    font-weight:bold;
+    font-size:12px;
+    color:#666;
+}
+.footer-section {
+    padding: 80px 0;
+    max-width: 100%;
+ }
+    .footer-section .relative {
+      position: relative; }
+    .footer-section a {
+      text-decoration: none;
+      color: #2f2f2f;
+      -webkit-transition: .3s all ease;
+      -o-transition: .3s all ease;
+      transition: .3s all ease; }
+      .footer-section a:hover {
+        color: rgba(47, 47, 47, 0.5); }
